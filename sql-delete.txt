@@ -1,0 +1,11 @@
+delete from text where title like "%Wikipedia:%";
+delete from text where title like "%Help:%";
+delete from text where title regexp '^[a-zA-Z0-9]+$';
+共删除7w多条
+delete from text where title regexp '^[a-zA-Z0-9/_ ]+$';
+14w多条。。。
+delete from text where title like "%MediaWiki:%";
+6k多
+delete from text where title like "%File:%";
+3.5w
+delete from text where title like "%Template:%";
